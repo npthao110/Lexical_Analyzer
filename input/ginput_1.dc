@@ -1,0 +1,27 @@
+f=15;
+i=11;
+
+input(n);
+
+if (n == i && f > i) {
+	i = i + f;
+} else {
+	i = f - i;
+}
+
+t=x;
+
+if (t<n || i < f)
+{
+  input(a);
+  t=a+f-f*x;
+  output(n);
+}
+else
+{
+  read(a);
+  t=a+f-(f%x);
+  output(n);
+}
+
+output(t);
