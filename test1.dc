@@ -1,0 +1,41 @@
+f =15;
+i= 11;
+input(n);
+input(x);
+t=(x+1)%n;
+
+if(t<n)
+{
+	input(a);
+	t = a+f-f*x;
+	
+	if (f < i) {
+		n=a+i;
+	}
+	
+	if (f > i || f == i) {
+		n=a+i%x;
+	}
+	
+	if (n <= x) {
+		f=a+n;
+	}
+	
+	if (n >= x) {
+		f=(a+n) / 2;
+	}
+	
+	if (f != n && !(a < 5) ) {
+		a = 1;
+	}
+	else {
+		a = 2;
+	}
+	
+}
+else {
+	a = 3;
+}  
+
+
+output(a);

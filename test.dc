@@ -1,0 +1,9 @@
+f = 15;
+i = 11;
+
+input(n);
+
+if (n != i)
+{
+	output(f);
+}
